@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# 💰 App de Finanças Pessoais - React
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Badge de Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 
-## Get started
+## 📌 Descrição
 
-1. Install dependencies
+Este é um aplicativo de **gestão financeira pessoal** desenvolvido em **React**.  
+Com ele, você pode **controlar seus gastos e receitas**, acompanhar seu **saldo positivo ou negativo** e **agendar seus dias de pagamento**.  
 
-   ```bash
-   npm install
-   ```
+O objetivo é ajudar no gerenciamento financeiro de forma simples e intuitiva.
 
-2. Start the app
+## 🚀 Tecnologias Utilizadas
 
-   ```bash
-    npx expo start
-   ```
+- ⚛️ **React**: Framework principal para a interface
+- 🏷️ **TypeScript**: Tipagem estática para maior segurança no código
+- 💾 **Local Storage ou Firebase**: Para armazenamento de dados (dependendo da sua escolha)
+- 📆 **React Calendar**: Para a funcionalidade de agendamento
+- 📊 **Chart.js**: Para visualização de gráficos financeiros (se aplicável)
 
-In the output, you'll find options to open the app in a
+## 🔧 Funcionalidades
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- ✅ **Adicionar saldo inicial**
+- ➖ **Registrar despesas**
+- ➕ **Registrar receitas**
+- 🔄 **Cálculo automático do saldo**
+- 🗓️ **Agendamento do dia de pagamento**
+- 🔍 **Consulta de pagamentos na agenda**
+- 📈 **Visualização gráfica dos gastos e ganhos** (se implementado)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Gostou do projeto? Fique à vontade para contribuir! 🖖🏻🚀 
